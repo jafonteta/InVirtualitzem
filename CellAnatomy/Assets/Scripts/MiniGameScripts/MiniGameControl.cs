@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.Localization.Components;
 
 public class MiniGameControl : MonoBehaviour
 {
@@ -22,9 +23,11 @@ public class MiniGameControl : MonoBehaviour
     public GameObject[] sockets;
     [Tooltip("Estos son los prefabs de orgánulos")]
     public GameObject[] organulos;
+    [Tooltip("Estos son los Eventos de localización asignados a los textos de los sockets de origen")]
+    public LocalizeStringEvent[] localizedStringEvent;
     [Tooltip("Estos son orgánulos que están en juego en la partida")]
     public List<GameObject> organulosAsignados;
-
+    
     // Para el sorteo de números
     public List<int> numerosSorteoOrganulos;
     int numAleatorio;
@@ -36,6 +39,7 @@ public class MiniGameControl : MonoBehaviour
     void Start()
     {
         numerosSorteoOrganulos = new List<int>(sockets.Length);
+        categoriaConseguida = new bool[] {false, false, false };
         AsignarOrganulosToSockects();
     }
 
@@ -69,7 +73,7 @@ public class MiniGameControl : MonoBehaviour
 
         //Antes de empezar, vamos a resetear a 0 el contador de objetos por categoría
         ResetContadorObjetosCategoria();
-        // Por cada uno de los sockets haremos
+        // Por cada uno de los sockets haremos cosas a los sockets, orgánulos, textos de los sockets etc
         for (int a = 0; a < sockets.Length; a++)
         {
             // Asignamos un orgánulo al azar al socket. Lo instanciamos y lo asignamos hijo del socket
@@ -87,6 +91,9 @@ public class MiniGameControl : MonoBehaviour
             // Al objeto, a su componente XR Grab interactable le asignamos la interaction layer mask de la pasada o socket actual
             organulo.GetComponent<XRGrabInteractable>().interactionLayers = InteractionLayerMask.GetMask(a.ToString());
 
+            // Al LineFromTo de el Socket le asignamos el organulo que debe enganchar
+            sockets[a].GetComponent<LineaFromTo>().organuloLink = organulo.transform;
+
             // Al socket, a su componente XR Socket interactor, le asignamos a la "interaction layer Mask la id del socket o pasada de bucle"
             // Esto no es necesario si lo tenemos asignado al socket en la escena desde el principio.
             sockets[a].GetComponent<XRSocketInteractor>().interactionLayers = InteractionLayerMask.GetMask(a.ToString());
@@ -94,10 +101,13 @@ public class MiniGameControl : MonoBehaviour
             //Al socket, a su componente XR Socket interactor, le asignamos a "Starting Selected interactable" el XR base interactable del objeto asignado
             sockets[a].GetComponent<XRSocketInteractor>().startingSelectedInteractable = organulo.GetComponent<XRGrabInteractable>();
 
+            // Al Evento de localización del texto de cada socket de origen, le vamos a asignar la llave correspondiente al orgánulo
+            localizedStringEvent[a].StringReference.SetReference("StringsLocalizados", organulo.GetComponent<MiniOrganuloID>().key);
+
         }
 
         // Pasar el conteo de objetos contabilizados por categoría al trigger correspondiente
-        for(int j = 0; j < controladoresTriggers.Length; j++)
+        for (int j = 0; j < controladoresTriggers.Length; j++)
         {
             controladoresTriggers[j].cantidadTotalOrganulos = cantidadOrganulosCategoria[j];
         }
@@ -131,5 +141,49 @@ public class MiniGameControl : MonoBehaviour
             }
         
     }
+
+    public void DesactivarSocketOrigen(int idTemp)
+    {
+        sockets[idTemp].GetComponent<XRSocketInteractor>().socketActive = false;
+    }
+
+    public void ActivarSocketOrigen(int idTemp)
+    {
+        sockets[idTemp].GetComponent<XRSocketInteractor>().socketActive = true;
+    }
+
+    
+    /*
+    private string ConvertNumeroToKey(int numTemp)
+    {
+        switch (numTemp)
+        {
+            case 0:
+                string key = "Org"
+                break;
+            case 1:
+                
+                break;
+            case 2:
+                
+                break;
+            case 3:
+                
+                break;
+            case 4:
+                
+                break;
+            case 5:
+
+                break;
+            default:
+                
+                break;
+        }
+
+        return "";
+    }
+    */
+    
 
 }

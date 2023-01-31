@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class TriggerControl : MonoBehaviour
 {
-    [Header("TIPO DE CÉLULA")]
+    [Header("TIPO DE CÉLULA y CATEGORÍA ID")]
+    [Tooltip("Animal, Vegetal o Procariota")]
     public string tipo;
-    
+    [Tooltip("Animal = 0 ; Vegetal = 1; Procariota = 2")]
+    public int categoriaID = 0;
+
     [Space(10)]
 
     [Tooltip("La cantidad de orgánulos que se deben colocar en este trigger en la partida")]
@@ -30,6 +33,8 @@ public class TriggerControl : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        miniController.DesactivarSocketOrigen(other.GetComponent<MiniOrganuloID>().socketID);
+
         if(other.transform.tag == tipo && contadorOrganulos < cantidadTotalOrganulos)
         {
             contadorOrganulos += 1;
@@ -37,8 +42,25 @@ public class TriggerControl : MonoBehaviour
 
         if(contadorOrganulos == cantidadTotalOrganulos)
         {
-            miniController.categoriaConseguida[0] = true;
+            miniController.categoriaConseguida[categoriaID] = true;
         }
+
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        miniController.ActivarSocketOrigen(other.GetComponent<MiniOrganuloID>().socketID);
+
+        if (other.transform.tag == tipo && (contadorOrganulos < cantidadTotalOrganulos && contadorOrganulos > 0))
+        {
+            contadorOrganulos -= 1;
+        }
+
+        if (contadorOrganulos != cantidadTotalOrganulos)
+        {
+            miniController.categoriaConseguida[categoriaID] = false;
+        }
+
     }
 
 }

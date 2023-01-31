@@ -22,6 +22,16 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
+  - m_GUID: 9c045014c75799144b1716f552861afe
+    m_Address: Gender Sample_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 12d764865bfa39349916982a9b8775d2
+    m_Address: StringsLocalizados_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 850885d5058469c4c8438e2535d368c4, type: 2}
   m_SchemaSet:

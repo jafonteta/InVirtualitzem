@@ -27,6 +27,21 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
+  - m_GUID: 97759c4743c68ee4f9c2baf75f8a41ad
+    m_Address: Catalan (Spain) (ca-ES-valencia)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+  - m_GUID: 32dbe498c3ed24f4caf24425950e6934
+    m_Address: Spanish (es)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+  - m_GUID: d418d39db07718843b4e1b45d051cb62
+    m_Address: English (en)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 850885d5058469c4c8438e2535d368c4, type: 2}
   m_SchemaSet:

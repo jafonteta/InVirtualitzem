@@ -6,26 +6,29 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Proyecto/Escena_01_LogoApp.unity
+    path: Assets/Scenes/Escena_01_LogoApp.unity
     guid: 40d9af067dbde11449022176520b01b1
   - enabled: 1
-    path: Assets/Scenes/Proyecto/Escena_02_Menu.unity
+    path: Assets/Scenes/Escena_02_Menu.unity
     guid: 1a58c99375cb2214984e3a7ad39c1cac
   - enabled: 1
-    path: Assets/Scenes/Proyecto/Escena_03_Manual Usuario.unity
+    path: Assets/Scenes/Escena_03_Manual Usuario.unity
     guid: 6743724f3a9047c4ea05c414691d625f
   - enabled: 1
-    path: Assets/Scenes/Proyecto/Escena_04_Configuracion.unity
+    path: Assets/Scenes/Escena_04_Configuracion.unity
     guid: fc39edf04ea9b194898045e97c5bb361
   - enabled: 1
-    path: Assets/Scenes/Proyecto/Escena_05_Celula procariota.unity
+    path: Assets/Scenes/Escena_05_Celula procariota.unity
     guid: 488d7b122f6e8e94099d281b4da1f113
   - enabled: 1
-    path: Assets/Scenes/Proyecto/Escena_06_Celula animal.unity
+    path: Assets/Scenes/Escena_06_Celula animal.unity
     guid: d5419a26cfd84b941948f5991460c727
   - enabled: 1
-    path: Assets/Scenes/Proyecto/Escena_07_Celula vegetal.unity
+    path: Assets/Scenes/Escena_07_Celula vegetal.unity
     guid: a47cb50d05d9ca64191a7f4790fae4f9
+  - enabled: 1
+    path: Assets/Scenes/Escena_MiniGame.unity
+    guid: 7201de9caf2031c4e881370c5a61243b
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
@@ -36,6 +39,8 @@ EditorBuildSettings:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: a49cadc1a815591479693b955ccf08c1,
       type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: 22a0bb7f8edc7064ca51ffd6a06e80db,
+      type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: d85d8dba5cf4c0943b6fbcf2daad4d80,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1a4c68ca72a83449f938d669337cb305,
       type: 2}

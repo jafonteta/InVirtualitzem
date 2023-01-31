@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class SimpleMenuCambio : MonoBehaviour
 {
-    public GameObject objetoActivado;
-    public GameObject objetoDesactivado;
+    public GameObject[] canvas;
+    public int idActivar;
+    public int idCanvasActual;
     // Start is called before the first frame update
 
     public void CambioMenu()
     {
-        objetoActivado.SetActive(true);
-        objetoDesactivado.SetActive(false);
+        canvas[idActivar].SetActive(true);
+        for(int i = 0; i < canvas.Length; i++)
+        {
+            if(i != idActivar || i != idCanvasActual)
+            {
+                canvas[i].SetActive(false);
+            }
+        }
+        canvas[idCanvasActual].SetActive(false);
     }
 }
