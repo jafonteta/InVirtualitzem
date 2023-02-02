@@ -17,18 +17,8 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: f1c5bc3f28f58f040be9f220563e9a60
   m_SerializeEntries:
-  - m_GUID: 74c22f3ec2901344db0ae2a7c742dd50
-    m_Address: English (en)
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale
-  - m_GUID: a24aebccbed47094da696fd80c068d32
-    m_Address: Spanish (es)
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale
   - m_GUID: 97759c4743c68ee4f9c2baf75f8a41ad
-    m_Address: Catalan (Spain) (ca-ES-valencia)
+    m_Address: Catalan (Spain)
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale

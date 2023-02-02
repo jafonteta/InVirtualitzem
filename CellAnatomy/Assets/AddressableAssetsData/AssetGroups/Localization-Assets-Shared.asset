@@ -17,16 +17,6 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: a3f66be573c099941a371de32a6bbab9
   m_SerializeEntries:
-  - m_GUID: 1317265bd367bf24c8c9252ba14c8797
-    m_Address: Assets/Samples/Localization/1.3.2/Smart Strings - Persistent Variables/String
-      Table/Gender Sample Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-  - m_GUID: 27153e20147c06c4c8d1304d28104a87
-    m_Address: Assets/Samples/Localization/1.3.2/Smart Strings - Persistent Variables/String
-      Table/Global Variables Sample Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
   - m_GUID: 68bd3506fbb883a4c84791e8d2e0c71d
     m_Address: Assets/Scenes/Localization/StringsLocalizados Shared Data.asset
     m_ReadOnly: 1

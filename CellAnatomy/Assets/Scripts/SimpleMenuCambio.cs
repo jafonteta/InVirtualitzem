@@ -12,6 +12,8 @@ public class SimpleMenuCambio : MonoBehaviour
     public void CambioMenu()
     {
         canvas[idActivar].SetActive(true);
+        print("Activado canvas " + idActivar);
+        /*
         for(int i = 0; i < canvas.Length; i++)
         {
             if(i != idActivar || i != idCanvasActual)
@@ -19,6 +21,7 @@ public class SimpleMenuCambio : MonoBehaviour
                 canvas[i].SetActive(false);
             }
         }
+        */
         canvas[idCanvasActual].SetActive(false);
     }
 }

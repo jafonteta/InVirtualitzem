@@ -5,9 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class PasaMenu : MonoBehaviour
 {
+    [SerializeField]
+    protected EasyAudioUtility_SceneManager miEasyAudio;
+
+    public string nombreEscenaMenu = "Escena_02_Menu";
     // Start is called before the first frame update
     void Start()
     {
+        miEasyAudio = FindObjectOfType<EasyAudioUtility_SceneManager>();
         Invoke("PasarEscena", 3);
     }
 
@@ -18,6 +23,9 @@ public class PasaMenu : MonoBehaviour
     }
     public void PasarEscena()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(nombreEscenaMenu);
+        miEasyAudio.onSceneChange(nombreEscenaMenu);
     }
+
+   
 }

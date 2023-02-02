@@ -5,8 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class CambioEscena : MonoBehaviour
 {
-    public void LoadScene(string sceneName)
+    [SerializeField]
+    protected EasyAudioUtility_SceneManager miEasyAudio;
+
+    private void Start()
+    {
+        miEasyAudio = FindObjectOfType<EasyAudioUtility_SceneManager>();
+    }
+    public void CargarEscena(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+        miEasyAudio.onSceneChange(sceneName);
     }
+
+    
 }

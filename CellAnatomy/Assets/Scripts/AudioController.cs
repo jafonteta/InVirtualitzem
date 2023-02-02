@@ -18,6 +18,23 @@ public class AudioController : MonoBehaviour
 
     Slider sliderCompo;
 
+    [Header("Ajustar solo para el Toggle VoiceOnOff")]
+    public Toggle mToggleOnOff;
+    float tempFlotanteParametroAjustable;
+
+    private void OnEnable()
+    {
+        if(sliderCompo == null)
+        {
+            sliderCompo = GetComponent<Slider>();
+        }
+        if (sliderCompo != null)
+        {
+            SetSliderValue();
+        }
+
+    }
+
     private void Start()
     {
         m_audioFuente = GetComponent<AudioSource>();
@@ -25,13 +42,42 @@ public class AudioController : MonoBehaviour
         sliderCompo = GetComponent<Slider>();
         if(sliderCompo != null)
         {
-            SetVolume(sliderCompo.value);
+            SetSliderValue();
         }
     }
     public void SetVolume(float sliderTemp)
     {
-        print("Slider temp = " + sliderTemp);
-        mezcladorAudio.SetFloat(parametroAjustable, Mathf.Log10(sliderTemp) * 20);
-        print("Setfloat" + Mathf.Log10(sliderTemp) * 20);
+        //mezcladorAudio.SetFloat(parametroAjustable, Mathf.Log10(sliderTemp) * 20);
+
+        // esto habría que revisarlo
+        if (mToggleOnOff == null || (mToggleOnOff != null && mToggleOnOff.isOn == true))
+        {
+            mezcladorAudio.SetFloat(parametroAjustable, sliderTemp);
+        }
+ 
+    }
+
+    public void SetSliderValue()
+    {
+        mezcladorAudio.GetFloat(parametroAjustable, out tempFlotanteParametroAjustable);
+        sliderCompo.value = tempFlotanteParametroAjustable;
+        Debug.Log("Valor del volumen del mezclador" + tempFlotanteParametroAjustable);
+    }
+    public void SetVolumeVoiceOnOff()
+    {
+        if(mToggleOnOff != null)
+        {
+            switch (mToggleOnOff.isOn)
+            {
+                case true:
+                    mezcladorAudio.SetFloat(parametroAjustable, tempFlotanteParametroAjustable);
+                    break;
+                case false:
+                    mezcladorAudio.GetFloat(parametroAjustable, out tempFlotanteParametroAjustable);
+                    mezcladorAudio.SetFloat(parametroAjustable, -80);
+                    break; 
+                default:
+            }
+        }
     }
 }
