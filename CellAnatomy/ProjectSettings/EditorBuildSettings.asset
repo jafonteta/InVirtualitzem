@@ -12,10 +12,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Escena_02_Menu.unity
     guid: 1a58c99375cb2214984e3a7ad39c1cac
   - enabled: 1
-    path: Assets/Scenes/Escena_03_Manual Usuario.unity
+    path: Assets/Scenes/Escena_03_Manual Usuario_NoBuild.unity
     guid: 6743724f3a9047c4ea05c414691d625f
   - enabled: 1
-    path: Assets/Scenes/Escena_04_Configuracion.unity
+    path: Assets/Scenes/Escena_04_Configuracion_NoBuild.unity
     guid: fc39edf04ea9b194898045e97c5bb361
   - enabled: 1
     path: Assets/Scenes/Escena_05_Celula procariota.unity
@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Escena_MiniGame.unity
     guid: 7201de9caf2031c4e881370c5a61243b
+  - enabled: 1
+    path: Assets/Scenes/Escena_Org010_Golgi.unity
+    guid: 96c15410c7701c7449e572e14ff7dfd3
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}

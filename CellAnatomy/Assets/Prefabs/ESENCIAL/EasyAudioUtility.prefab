@@ -75,3 +75,6 @@ MonoBehaviour:
   - SceneName: Escena_02_Menu
     name: BG
     clip: {fileID: 8300000, guid: 49ab527e7bec51e41b632efd5feb3e5c, type: 3}
+  - SceneName: Escena_MiniGame
+    name: BG
+    clip: {fileID: 8300000, guid: 9b225ef4f19cf441f8d7df84ea0f21ad, type: 3}
