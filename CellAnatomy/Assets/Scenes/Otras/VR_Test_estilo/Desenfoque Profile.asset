@@ -18,13 +18,13 @@ MonoBehaviour:
     m_Value: 2
   gaussianStart:
     m_OverrideState: 1
-    m_Value: 1.78
+    m_Value: 3.43
   gaussianEnd:
     m_OverrideState: 1
     m_Value: 10
   gaussianMaxRadius:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.853
   highQualitySampling:
     m_OverrideState: 0
     m_Value: 0
@@ -33,10 +33,10 @@ MonoBehaviour:
     m_Value: 0.5
   aperture:
     m_OverrideState: 1
-    m_Value: 5
+    m_Value: 3
   focalLength:
     m_OverrideState: 1
-    m_Value: 20
+    m_Value: 18
   bladeCount:
     m_OverrideState: 0
     m_Value: 5
@@ -58,13 +58,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5e1dc532bcb41949b58bc4f2abfbb7e, type: 3}
   m_Name: LensDistortion
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.242
+    m_Value: -0.481
   xMultiplier:
     m_OverrideState: 1
-    m_Value: 0.911
+    m_Value: 0.72
   yMultiplier:
     m_OverrideState: 1
     m_Value: 0.559
@@ -87,8 +87,8 @@ MonoBehaviour:
   m_Name: Desenfoque Profile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 6599287203829861587}
   - {fileID: -7165127537213917685}
+  - {fileID: 6599287203829861587}
   - {fileID: -5647129602610705425}
 --- !u!114 &6599287203829861587
 MonoBehaviour:
@@ -105,10 +105,10 @@ MonoBehaviour:
   active: 1
   threshold:
     m_OverrideState: 1
-    m_Value: 0.51
+    m_Value: 0.49
   intensity:
     m_OverrideState: 1
-    m_Value: 1.02
+    m_Value: 1.16
   scatter:
     m_OverrideState: 0
     m_Value: 0.7
