@@ -18,80 +18,346 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 22146672789991424
-    m_Localized: Idioma Val
+  - m_Id: 17
+    m_Localized: "Org\xE0nuls"
     m_Metadata:
       m_Items: []
-  - m_Id: 4770716364800
-    m_Localized: Hola
+  - m_Id: 1
+    m_Localized: Idiomes
     m_Metadata:
       m_Items: []
-  - m_Id: 16329266930823168
-    m_Localized: So Ambiental
+  - m_Id: 2
+    m_Localized: "M\xFAsica"
     m_Metadata:
       m_Items: []
-  - m_Id: 16339000085884928
+  - m_Id: 3
     m_Localized: Efectes de so
     m_Metadata:
       m_Items: []
-  - m_Id: 16342982325874688
-    m_Localized: Veu en off
+  - m_Id: 4
+    m_Localized: "Locuci\xF3"
     m_Metadata:
       m_Items: []
-  - m_Id: 16583343136747520
+  - m_Id: 5
+    m_Localized: Veu activada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6
+    m_Localized: Veu desactivada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7
+    m_Localized: "Manera dalt\xF2nica activada"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8
+    m_Localized: "Manera dalt\xF2nic desactivat"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9
+    m_Localized: Manual d'usuari
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10
+    m_Localized: "Informaci\xF3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11
+    m_Localized: '*Info *parrafada'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12
+    m_Localized: Tornar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13
+    m_Localized: Eucariota animal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14
+    m_Localized: Eucariota vegetal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15
+    m_Localized: "C\xE8l\xB7lula Procariota"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16
+    m_Localized: "COMPONENTS DE LES C\xC8L\xB7LULES"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18
+    m_Localized: Nucli
+    m_Metadata:
+      m_Items:
+      - rid: 4201185770368139315
+  - m_Id: 19
+    m_Localized: Mitocondri
+    m_Metadata:
+      m_Items:
+      - rid: 4201185770368139316
+  - m_Id: 20
+    m_Localized: "Membrana plasm\xE0tica"
+    m_Metadata:
+      m_Items:
+      - rid: 4201185770368139317
+  - m_Id: 21
+    m_Localized: Nucli
+    m_Metadata:
+      m_Items:
+      - rid: 4201185770368139318
+  - m_Id: 22
+    m_Localized: Cloroplast
+    m_Metadata:
+      m_Items:
+      - rid: 4201185770368139319
+  - m_Id: 23
+    m_Localized: Mitocondri
+    m_Metadata:
+      m_Items:
+      - rid: 4201185770368139320
+  - m_Id: 24
+    m_Localized: "Membrana plasm\xE0tica"
+    m_Metadata:
+      m_Items:
+      - rid: 4201185770368139321
+  - m_Id: 25
+    m_Localized: "Paret cel\xB7lular"
+    m_Metadata:
+      m_Items:
+      - rid: 4201185770368139322
+  - m_Id: 26
+    m_Localized: "Material gen\xE8tic"
+    m_Metadata:
+      m_Items:
+      - rid: 4201185770368139323
+  - m_Id: 27
+    m_Localized: Citoplasma
+    m_Metadata:
+      m_Items:
+      - rid: 4201185770368139324
+  - m_Id: 28
+    m_Localized: "Membrana plasm\xE0tica"
+    m_Metadata:
+      m_Items:
+      - rid: 4201185770368139325
+  - m_Id: 29
+    m_Localized: "Paret cel\xB7lular"
+    m_Metadata:
+      m_Items:
+      - rid: 4201185770368139326
+  - m_Id: 30
+    m_Localized: Flagel
+    m_Metadata:
+      m_Items:
+      - rid: 4201185770368139327
+  - m_Id: 31
     m_Localized: Aparell de Golgi
     m_Metadata:
       m_Items: []
-  - m_Id: 16584261148258304
-    m_Localized: Lisosoma
-    m_Metadata:
-      m_Items: []
-  - m_Id: 16585289730011136
-    m_Localized: Nucli
-    m_Metadata:
-      m_Items: []
-  - m_Id: 16585587257159680
-    m_Localized: Lisosoma
-    m_Metadata:
-      m_Items: []
-  - m_Id: 16585968028659712
-    m_Localized: "Ret\xEDcul endoplasm\xE1tic"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 16586265824243712
-    m_Localized: Mitocondri
-    m_Metadata:
-      m_Items: []
-  - m_Id: 16586495676297216
+  - m_Id: 32
     m_Localized: Interior de mitocondri
     m_Metadata:
       m_Items: []
-  - m_Id: 16709654266163200
-    m_Localized: Apararell de Golgi
+  - m_Id: 33
+    m_Localized: Lisosoma
     m_Metadata:
       m_Items: []
-  - m_Id: 16709698423795712
-    m_Localized: Mitocondri
+  - m_Id: 34
+    m_Localized: "Reticle endoplasm\xE0tic"
     m_Metadata:
       m_Items: []
-  - m_Id: 16709750940676096
-    m_Localized: Cloroplast
+  - m_Id: 35
+    m_Localized: Interior de cloroplast
     m_Metadata:
       m_Items: []
-  - m_Id: 16709905555304448
-    m_Localized: Flagelo
+  - m_Id: 36
+    m_Localized: "Vac\xFAol central"
     m_Metadata:
       m_Items: []
-  - m_Id: 16709932533067776
-    m_Localized: "Material gen\xE9tic"
+  - m_Id: 37
+    m_Localized: Amiloplast
     m_Metadata:
       m_Items: []
-  - m_Id: 22508932683182080
-    m_Localized: 'Apararell de Golgi
-
-      Lorem ipsum dolor sit amet, consectetur '
+  - m_Id: 38
+    m_Localized: Ribosoma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39
+    m_Localized: Peroxisoma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40
+    m_Localized: "Nucl\xE8ol"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41
+    m_Localized: Cromosoma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42
+    m_Localized: "F\xEDmbrias"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43
+    m_Localized: Nucleoide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44
+    m_Localized: Mesosoma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45
+    m_Localized: "C\xE0psula"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46
+    m_Localized: "Cossos d'inclusi\xF3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47
+    m_Localized: Plasmidi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48
+    m_Localized: "Nucli: \xC9s una estructura discreta que cont\xE9 els ribosomes,
+      recipients de la dotaci\xF3 gen\xE8tica de la c\xE8l\xB7lula. Est\xE0 separat
+      de la resta de la c\xE8l\xB7lula per una membrana nuclear de doble capa i cont\xE9
+      un material anomenat nucleoplasma."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49
+    m_Localized: "Mitocondri: S\xF3n org\xE0nuls molt especialitzats que es troben
+      en el citoplasma de les c\xE8l\xB7lules eucariotes, tant animals, vegetals,
+      fongs i protistos. S\xF3n unitats xicotetes dins de la c\xE8l\xB7lula i que
+      duen a terme funcions espec\xEDfiques per al desenvolupament d'aquestes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50
+    m_Localized: "Membrana plasm\xE0tica: La membrana plasm\xE0tica, tamb\xE9 anomenada
+      membrana cel\xB7lular, es troba en totes les c\xE8l\xB7lules i separa l'interior
+      de la c\xE8l\xB7lula de l'ambient exterior. En bacteris i en c\xE8l\xB7lules
+      de plantes, hi ha tamb\xE9 una paret cel\xB7lular que s'uneix a la membrana
+      plasm\xE0tica en la superf\xEDcie exterior."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51
+    m_Localized: "Nucli: \xC9s un org\xE0nul que es troba envoltat d'una estructura
+      doble anomenada embolcall nuclear. En ell es troba continguda la informaci\xF3
+      gen\xE8tica o ADN (\xC0cid desoxiribonucleic) responsable de processos com
+      el metabolisme i el creixement i diferenciaci\xF3 cel\xB7lular."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52
+    m_Localized: "Cloroplast: Org\xE0nuls cel\xB7lulars dels vegetals i algues verdes
+      que s'encarreguen de dur a terme la fotos\xEDntesi. Els cloroplasts es troben
+      en els organismes eucariotes, es troben en grans quantitats i les seues grand\xE0ries
+      s\xF3n variables, en general s\xF3n ovals o esf\xE8rics."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53
+    m_Localized: "Mitocondri: Estructures xicotetes d'una c\xE8l\xB7lula que es troben
+      en el citoplasma (el l\xEDquid que envolta el nucli). El mitocondri produeix
+      la major part de l'energia de la c\xE8l\xB7lula i compten amb el seu propi
+      material gen\xE8tic, que difereix del material gen\xE8tic del nucli."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54
+    m_Localized: "Membrana plasm\xE0tica: La membrana plasm\xE0tica es compon d'una
+      bicapa lip\xEDdica que \xE9s semipermeable. La membrana plasm\xE0tica regula
+      el transport de materials que entren i ixen de la c\xE8l\xB7lula."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55
+    m_Localized: "Paret cel\xB7lular: La paret cel\xB7lular de la c\xE8l\xB7lula
+      vegetal \xE9s la coberta externa i r\xEDgida que est\xE0 formada fonamentalment
+      per cel\xB7lulosa i la seua principal funci\xF3 \xE9s la de protecci\xF3. Aquesta
+      paret cel\xB7lular \xE9s l'estructura mitjan\xE7ant la qual es connecten les
+      diferents c\xE8l\xB7lules dels teixits vegetals."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56
+    m_Localized: "Material gen\xE8tic: S'empra per a guardar la informaci\xF3 gen\xE8tica
+      d'una forma de vida org\xE0nica i, en eucariotes, est\xE0 emmagatzemat en el
+      nucli de la c\xE8l\xB7lula."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57
+    m_Localized: "Citoplasma: L\xEDquid gelatin\xF3s que ompli l'interior d'una c\xE8l\xB7lula.
+      Est\xE0 compost per aigua, sals i diverses mol\xE8cules org\xE0niques."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58
+    m_Localized: "Membrana plasm\xE0tica: \xE9s una capa o bicapa lip\xEDdica de
+      fosfol\xEDpids i altres subst\xE0ncies que delimita tota la c\xE8l\xB7lula,
+      dividint el mitj\xE0 extracelul\xB7lar de l'intracel\xB7lular."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59
+    m_Localized: "Paret cel\xB7lular: \xC9s una capa resistent i r\xEDgida que es
+      localitza en l'exterior de la membrana plasm\xE0tica en les c\xE8l\xB7lules
+      de plantes, fongs, algues, bacteris i arqueges."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60
+    m_Localized: "Flagel: Ap\xE8ndix m\xF2bil amb forma de fuet present en molts
+      organismes unicel\xB7lulars i en algunes c\xE8l\xB7lules d'organismes pluricel\xB7lulars.
+      Normalment els flagels s\xF3n usats per al moviment, encara que alguns organismes
+      poden utilitzar-los per a altres funcions"
     m_Metadata:
       m_Items: []
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 4201185770368139315
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "Org\xE1nulo animal"
+    - rid: 4201185770368139316
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "Org\xE1nulo animal"
+    - rid: 4201185770368139317
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "Org\xE1nulo animal"
+    - rid: 4201185770368139318
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "Org\xE1nulo vegetal"
+    - rid: 4201185770368139319
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "Org\xE1nulo vegetal"
+    - rid: 4201185770368139320
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "Org\xE1nulo vegetal"
+    - rid: 4201185770368139321
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "Org\xE1nulo vegetal"
+    - rid: 4201185770368139322
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "Org\xE1nulo vegetal"
+    - rid: 4201185770368139323
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "Org\xE1nulo procariota"
+    - rid: 4201185770368139324
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "Org\xE1nulo procariota"
+    - rid: 4201185770368139325
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "Org\xE1nulo procariota"
+    - rid: 4201185770368139326
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "Org\xE1nulo procariota"
+    - rid: 4201185770368139327
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "Org\xE1nulo procariota"

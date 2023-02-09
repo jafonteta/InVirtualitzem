@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.11986753, g: 0.119945094, b: 0.119891055, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1388,10 +1388,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100744689, guid: dd04cc4a12c63e942bf339ad737bc9e8, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100744689, guid: dd04cc4a12c63e942bf339ad737bc9e8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 232952566, guid: dd04cc4a12c63e942bf339ad737bc9e8, type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 869005402}
+    - target: {fileID: 327401981, guid: dd04cc4a12c63e942bf339ad737bc9e8, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 327401981, guid: dd04cc4a12c63e942bf339ad737bc9e8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 327401981, guid: dd04cc4a12c63e942bf339ad737bc9e8, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 894088974, guid: dd04cc4a12c63e942bf339ad737bc9e8, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 894088974, guid: dd04cc4a12c63e942bf339ad737bc9e8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 894088974, guid: dd04cc4a12c63e942bf339ad737bc9e8, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1269753147, guid: dd04cc4a12c63e942bf339ad737bc9e8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1269753151, guid: dd04cc4a12c63e942bf339ad737bc9e8, type: 3}
       propertyPath: m_Camera
       value: 
@@ -1444,9 +1480,45 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2021085621, guid: dd04cc4a12c63e942bf339ad737bc9e8, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021085621, guid: dd04cc4a12c63e942bf339ad737bc9e8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069659271, guid: dd04cc4a12c63e942bf339ad737bc9e8, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069659271, guid: dd04cc4a12c63e942bf339ad737bc9e8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 523124944414259780, guid: dd04cc4a12c63e942bf339ad737bc9e8,
         type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3922245356993302105, guid: dd04cc4a12c63e942bf339ad737bc9e8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322217973001710253, guid: dd04cc4a12c63e942bf339ad737bc9e8,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322217973001710253, guid: dd04cc4a12c63e942bf339ad737bc9e8,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322217973001710253, guid: dd04cc4a12c63e942bf339ad737bc9e8,
+        type: 3}
+      propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4842460730788924573, guid: dd04cc4a12c63e942bf339ad737bc9e8,
@@ -1455,6 +1527,11 @@ PrefabInstance:
       value: tabletSimple
       objectReference: {fileID: 0}
     - target: {fileID: 4842460730788924573, guid: dd04cc4a12c63e942bf339ad737bc9e8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085165177011576605, guid: dd04cc4a12c63e942bf339ad737bc9e8,
         type: 3}
       propertyPath: m_IsActive
       value: 1

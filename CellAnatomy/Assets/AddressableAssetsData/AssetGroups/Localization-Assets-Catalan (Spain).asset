@@ -16,12 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 88fdd335242bbd44ba5fec2cc316c9e2
-  m_SerializeEntries:
-  - m_GUID: 762d6fd13775f124a9b75ad3f222b43e
-    m_Address: Nucli
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-ca
+  m_SerializeEntries: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 850885d5058469c4c8438e2535d368c4, type: 2}
   m_SchemaSet:
