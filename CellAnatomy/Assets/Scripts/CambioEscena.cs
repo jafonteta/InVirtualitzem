@@ -13,6 +13,12 @@ public class CambioEscena : MonoBehaviour
     [Header("ESTO SE ASIGNARÁ SOLO")]
     Animator faderAnimator;
 
+    [Header("RETRASO AL CARGAR")]
+    [Tooltip("Este es el tiempo que va a tardar en cargar la escena, permitiendo que el audio se termine de reproducir, y el fade In funcionar")]
+    public float retrasoCarga = 0.5f;
+
+    private string escenaAcargar;
+
     private void Start()
     {
         if(faderAnimator == null)
@@ -33,8 +39,9 @@ public class CambioEscena : MonoBehaviour
         {
             faderAnimator.SetTrigger("FadeIn");
         }
- 
-        SceneManager.LoadScene(sceneName);
+
+        escenaAcargar = sceneName;
+        Invoke("CargarEscenaDealay", retrasoCarga);
         
         if(miEasyAudio == null)
         {
@@ -44,11 +51,16 @@ public class CambioEscena : MonoBehaviour
         {
             miEasyAudio.onSceneChange(sceneName);
         }
+        
+    }
+
+    void CargarEscenaDealay()
+    {
+        SceneManager.LoadScene(escenaAcargar);
         if (faderAnimator != null)
         {
             faderAnimator.SetTrigger("FadeOut");
         }
-        
     }
 
     void CheckForAnimator()

@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Inspector
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 19
+  controlID: 583
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -72,7 +72,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 20
+  controlID: 584
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -83,7 +83,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: LocalizationTablesWindow
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -92,15 +92,15 @@ MonoBehaviour:
     y: 0
     width: 787
     height: 947
-  m_MinSize: {x: 901, y: 621}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
   - {fileID: 16}
   - {fileID: 15}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 82
+  controlID: 26
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 83
+  controlID: 27
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -404,7 +404,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -167728
+  m_LastSelectedObjectID: -3844
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -710,22 +710,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: F:\CURSO UNITY C#\GITHUB\InVirtualitzem\CellAnatomy
+  m_LastProjectPath: E:\DEIM\InVirtualitzem\CellAnatomy
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 143}
-    m_SelectedIDs: f07e0000
-    m_LastClickedID: 32496
-    m_ExpandedIDs: 00000000f07e0000f27e0000f47e0000f67e0000f87e0000fa7e0000fc7e0000fe7e0000007f0000027f0000047f0000067f0000087f00000a7f00000c7f00000e7f0000107f0000127f0000147f00002e7f0000a284000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 18880000
+    m_LastClickedID: 34840
+    m_ExpandedIDs: 000000003e86000040860000428600004486000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -753,7 +753,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f07e0000f27e0000f47e0000f67e0000f87e0000fa7e0000fc7e0000fe7e0000007f0000027f0000047f0000067f0000087f00000a7f00000c7f00000e7f0000107f0000127f0000147f0000
+    m_ExpandedIDs: 000000003e860000408600004286000044860000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -883,9 +883,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a4840000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 22e6ffff90e6ffff2cfbffffa87b0000
+      m_SelectedIDs: fcf0ffff
+      m_LastClickedID: -3844
+      m_ExpandedIDs: 0cf1ffff7af1ffff4af5ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1135,9 +1135,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.005182799, y: 1.0162985, z: 1.8751717}
+    m_Target: {x: 0.56116354, y: 1.0935473, z: 0.476601}
     speed: 2
-    m_Value: {x: -0.005182799, y: 1.0162985, z: 1.8751717}
+    m_Value: {x: 0.56116354, y: 1.0935473, z: 0.476601}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1184,13 +1184,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.047203504, y: 0.18712094, z: -0.009182368, w: 0.9812664}
+    m_Target: {x: 0.0031003181, y: 0.014421692, z: -0.000071648086, w: 0.9999582}
     speed: 2
-    m_Value: {x: 0.04719854, y: 0.18710127, z: -0.009181403, w: 0.9811632}
+    m_Value: {x: 0.0031001105, y: 0.014420726, z: -0.000071643284, w: 0.9998912}
   m_Size:
-    m_Target: 0.08260345
+    m_Target: 2.6973407
     speed: 2
-    m_Value: 0.08260345
+    m_Value: 2.6973407
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1250,7 +1250,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 784, y: 491}
+  m_TargetSize: {x: 2560, y: 1440}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1265,10 +1265,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -392
-    m_HBaseRangeMax: 392
-    m_VBaseRangeMin: -245.5
-    m_VBaseRangeMax: 245.5
+    m_HBaseRangeMin: -1280
+    m_HBaseRangeMax: 1280
+    m_VBaseRangeMin: -720
+    m_VBaseRangeMax: 720
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1288,7 +1288,7 @@ MonoBehaviour:
       y: 21
       width: 784
       height: 491
-    m_Scale: {x: 1, y: 1}
+    m_Scale: {x: 0.30625, y: 0.30625}
     m_Translation: {x: 392, y: 245.5}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -1296,12 +1296,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -392
-      y: -245.5
-      width: 784
-      height: 491
+      x: -1280
+      y: -801.6326
+      width: 2560
+      height: 1603.2653
     m_MinimalGUI: 1
-  m_defaultScale: 1
+  m_defaultScale: 0.30625
   m_LastWindowPixelSize: {x: 784, y: 512}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
