@@ -1236,10 +1236,10 @@ PrefabInstance:
     - target: {fileID: 8691895179258532997, guid: 3e8b544a28ea0ae4db27810ed74aafda,
         type: 3}
       propertyPath: m_text
-      value: "Mitocondria: Son org\xE1nulos muy especializados que se encuentran
-        en el citoplasma de las c\xE9lulas eucariotas, tanto animales, vegetales,
-        hongos y protistas. Son unidades peque\xF1as dentro de la c\xE9lula y que
-        llevan a cabo funciones espec\xEDficas para el desarrollo de estas."
+      value: "Mitocondri: S\xF3n org\xE0nuls molt especialitzats que es troben en
+        el citoplasma de les c\xE8l\xB7lules eucariotes, tant animals, vegetals,
+        fongs i protistos. S\xF3n unitats xicotetes dins de la c\xE8l\xB7lula i que
+        duen a terme funcions espec\xEDfiques per al desenvolupament d'aquestes."
       objectReference: {fileID: 0}
     - target: {fileID: 8691895179258532997, guid: 3e8b544a28ea0ae4db27810ed74aafda,
         type: 3}

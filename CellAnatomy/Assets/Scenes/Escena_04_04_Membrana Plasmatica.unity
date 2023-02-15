@@ -1236,11 +1236,11 @@ PrefabInstance:
     - target: {fileID: 8691895179258532997, guid: 3e8b544a28ea0ae4db27810ed74aafda,
         type: 3}
       propertyPath: m_text
-      value: "Membrana plasm\xE1tica: La membrana plasm\xE1tica, tambi\xE9n llamada
-        membrana celular, se encuentra en todas las c\xE9lulas y separa el interior
-        de la c\xE9lula del ambiente exterior. En bacterias y en c\xE9lulas de plantas,
-        hay tambi\xE9n una pared celular que se une a la membrana plasm\xE1tica en
-        la superficie exterior."
+      value: "Membrana plasm\xE0tica: La membrana plasm\xE0tica, tamb\xE9 anomenada
+        membrana cel\xB7lular, es troba en totes les c\xE8l\xB7lules i separa l'interior
+        de la c\xE8l\xB7lula de l'ambient exterior. En bacteris i en c\xE8l\xB7lules
+        de plantes, hi ha tamb\xE9 una paret cel\xB7lular que s'uneix a la membrana
+        plasm\xE0tica en la superf\xEDcie exterior."
       objectReference: {fileID: 0}
     - target: {fileID: 8691895179258532997, guid: 3e8b544a28ea0ae4db27810ed74aafda,
         type: 3}
