@@ -790,6 +790,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   miEasyAudio: {fileID: 0}
+  retrasoCarga: 0.5
 --- !u!1 &8452990226418797434
 GameObject:
   m_ObjectHideFlags: 0
