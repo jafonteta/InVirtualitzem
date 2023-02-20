@@ -32,8 +32,11 @@ public class MiniGameControl : MonoBehaviour
     public List<int> numerosSorteoOrganulos;
     int numAleatorio;
 
-    
+    [Space(10)]
+    [Header("Cámara forward")]
+    public Camera miCam;
 
+    public GameObject botonResolver;
 
 
     void Start()
@@ -46,7 +49,8 @@ public class MiniGameControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //print(miCam.transform.forward);
+        //botonResolver.transform.position = miCam.transform.forward * 10;
     }
 
     void AsignarOrganulosToSockects()

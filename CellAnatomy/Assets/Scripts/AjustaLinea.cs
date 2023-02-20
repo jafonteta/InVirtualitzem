@@ -61,6 +61,11 @@ Transform[] puntos = new Transform[2];
     [SerializeField]
     protected bool miraCamara = true;
 
+    [Space]
+    [Header("¿Desactivar rótulo al comenzar?: Deafult:True")]
+    [Tooltip("Solo desactivar en caso de que el rótulo lo queramos activo todo el tiempo sin depender de un interactable")]
+    public bool desactiveOnStart = true;
+
 
     void Start()
     {
@@ -95,7 +100,11 @@ Transform[] puntos = new Transform[2];
             new GradientAlphaKey[] { new GradientAlphaKey(0.3f, 0.0f), new GradientAlphaKey(alpha, 1.0f) }
         );
         lineRenderer.colorGradient = gradient;
-        this.gameObject.SetActive(false);
+        if(desactiveOnStart == true)
+        {
+            this.gameObject.SetActive(false);
+        }
+
     }
 
     void Update()

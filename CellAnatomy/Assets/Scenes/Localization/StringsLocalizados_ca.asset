@@ -306,6 +306,10 @@ MonoBehaviour:
       poden utilitzar-los per a altres funcions"
     m_Metadata:
       m_Items: []
+  - m_Id: 28513021028118528
+    m_Localized: Clica per resoldre
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
