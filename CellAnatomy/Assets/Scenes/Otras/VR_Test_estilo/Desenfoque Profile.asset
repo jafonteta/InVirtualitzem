@@ -36,7 +36,7 @@ MonoBehaviour:
     m_Value: 3
   focalLength:
     m_OverrideState: 1
-    m_Value: 18
+    m_Value: 6
   bladeCount:
     m_OverrideState: 0
     m_Value: 5
@@ -58,10 +58,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5e1dc532bcb41949b58bc4f2abfbb7e, type: 3}
   m_Name: LensDistortion
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   intensity:
     m_OverrideState: 1
-    m_Value: -0.481
+    m_Value: 0.22
   xMultiplier:
     m_OverrideState: 1
     m_Value: 0.72
@@ -108,7 +108,7 @@ MonoBehaviour:
     m_Value: 0.49
   intensity:
     m_OverrideState: 1
-    m_Value: 1.16
+    m_Value: 0.84
   scatter:
     m_OverrideState: 0
     m_Value: 0.7
