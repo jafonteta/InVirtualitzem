@@ -324,6 +324,14 @@ MonoBehaviour:
     m_Localized: Click to solve
     m_Metadata:
       m_Items: []
+  - m_Id: 29329738650267648
+    m_Localized: You got it!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29330827919405056
+    m_Localized: You missed!
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

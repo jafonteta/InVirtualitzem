@@ -12,26 +12,59 @@ EditorBuildSettings:
     path: Assets/Scenes/Escena_02_Menu.unity
     guid: 1a58c99375cb2214984e3a7ad39c1cac
   - enabled: 1
-    path: Assets/Scenes/PrimerasPrueba/Escena_03_Manual Usuario_NoBuild.unity
-    guid: 6743724f3a9047c4ea05c414691d625f
+    path: Assets/Scenes/Escena_03_01_Material Genetico.unity
+    guid: 9c0f38799cedb4b42a111c674334d513
   - enabled: 1
-    path: Assets/Scenes/PrimerasPrueba/Escena_04_Configuracion_NoBuild.unity
-    guid: fc39edf04ea9b194898045e97c5bb361
+    path: Assets/Scenes/Escena_03_02_Membrana Plasmatica.unity
+    guid: 4b488853eba784b43b1524be1fc49b28
   - enabled: 1
-    path: Assets/Scenes/PrimerasPrueba/Escena_05_Celula procariota.unity
-    guid: 488d7b122f6e8e94099d281b4da1f113
+    path: Assets/Scenes/Escena_03_03_Pared Celular.unity
+    guid: 14adcbf70e00af24792c011d73c22556
   - enabled: 1
-    path: Assets/Scenes/PrimerasPrueba/Escena_06_Celula animal.unity
-    guid: d5419a26cfd84b941948f5991460c727
+    path: Assets/Scenes/Escena_03_04_Flagelo.unity
+    guid: 03aa24d2f3f2b9b44bfa49825c26087e
   - enabled: 1
-    path: Assets/Scenes/PrimerasPrueba/Escena_07_Celula vegetal.unity
-    guid: a47cb50d05d9ca64191a7f4790fae4f9
+    path: Assets/Scenes/Escena_03_Celula procariota.unity
+    guid: 0a85d40edf749c049944e1ee7e2b8c69
   - enabled: 1
-    path: Assets/Scenes/PrimerasPrueba/Escena_MiniGame.unity
-    guid: 7201de9caf2031c4e881370c5a61243b
+    path: Assets/Scenes/Escena_04_01_Nucleo.unity
+    guid: 6b92f375cad67da409bd70bcb9d33c14
   - enabled: 1
-    path: Assets/Scenes/Escena_Org010_Golgi.unity
-    guid: 96c15410c7701c7449e572e14ff7dfd3
+    path: Assets/Scenes/Escena_04_02_Mitocondria.unity
+    guid: 802049de83c7a0a4f91e9f23c7d03bad
+  - enabled: 1
+    path: Assets/Scenes/Escena_04_03_Golgi.unity
+    guid: 7bd93ff6c5c12764894b0015b7b91193
+  - enabled: 1
+    path: Assets/Scenes/Escena_04_04_Membrana Plasmatica.unity
+    guid: 1356bdb8ccb1f8d4b848814664b18660
+  - enabled: 1
+    path: Assets/Scenes/Escena_04_Celula animal.unity
+    guid: 585daf0dc6b5853419ea7ab87c4a6ed8
+  - enabled: 1
+    path: Assets/Scenes/Escena_05_01_Nucleo.unity
+    guid: 5c45d584481890747836a7cbec4beb8c
+  - enabled: 1
+    path: Assets/Scenes/Escena_05_02_Cloroplasto.unity
+    guid: 61584423d362261468cc2913c472a902
+  - enabled: 1
+    path: Assets/Scenes/Escena_05_03_Mitocondria.unity
+    guid: 66f2df89751de2043bc7bff82800848f
+  - enabled: 1
+    path: Assets/Scenes/Escena_05_04_Pared Celular.unity
+    guid: d510b53931d10cc42afcdfd5d14ea7a8
+  - enabled: 1
+    path: Assets/Scenes/Escena_05_05_Membrana Plasmatica.unity
+    guid: 0c2dd11ddd7584741a007eb8153c0cd8
+  - enabled: 1
+    path: Assets/Scenes/Escena_05_06_Golgi.unity
+    guid: c317be61182407f4eb94d8dc7b900f6e
+  - enabled: 1
+    path: Assets/Scenes/Escena_05_Celula vegetal.unity
+    guid: 1fc29eda4953da04da9e2dfc9b0013a6
+  - enabled: 1
+    path: Assets/Scenes/Escena_06_MiniGame.unity
+    guid: 8ab31bf5665f10040872fda0beaef93f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}

@@ -310,6 +310,14 @@ MonoBehaviour:
     m_Localized: Clica per resoldre
     m_Metadata:
       m_Items: []
+  - m_Id: 29329738650267648
+    m_Localized: Vas encertar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29330827919405056
+    m_Localized: Vas errar!
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
