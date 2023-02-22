@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 870976961}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.5463098, g: 0.5512526, b: 0.52158564, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9225,6 +9225,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1483001635, guid: dd04cc4a12c63e942bf339ad737bc9e8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Escena_03_Celula procariota
+      objectReference: {fileID: 0}
     - target: {fileID: 1775165100, guid: dd04cc4a12c63e942bf339ad737bc9e8, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -9241,6 +9245,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1775165101, guid: dd04cc4a12c63e942bf339ad737bc9e8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Escena_05_Celula vegetal
+      objectReference: {fileID: 0}
     - target: {fileID: 1820989558, guid: dd04cc4a12c63e942bf339ad737bc9e8, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -9256,6 +9264,10 @@ PrefabInstance:
     - target: {fileID: 1820989558, guid: dd04cc4a12c63e942bf339ad737bc9e8, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820989559, guid: dd04cc4a12c63e942bf339ad737bc9e8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Escena_04_Celula animal
       objectReference: {fileID: 0}
     - target: {fileID: 2021085621, guid: dd04cc4a12c63e942bf339ad737bc9e8, type: 3}
       propertyPath: m_AnchorMax.x
