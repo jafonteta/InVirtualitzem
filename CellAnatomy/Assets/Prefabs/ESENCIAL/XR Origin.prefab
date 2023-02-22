@@ -662,7 +662,7 @@ MonoBehaviour:
   m_PlayAudioClipOnSelectCanceled: 0
   m_AudioClipForOnSelectCanceled: {fileID: 0}
   m_PlayAudioClipOnHoverEntered: 1
-  m_AudioClipForOnHoverEntered: {fileID: 8300000, guid: f8340f55e5c418444b78e8db2523aad9,
+  m_AudioClipForOnHoverEntered: {fileID: 8300000, guid: 5dcfe313a8ac08147bc04028180cf9da,
     type: 3}
   m_PlayAudioClipOnHoverExited: 1
   m_AudioClipForOnHoverExited: {fileID: 8300000, guid: 9551e6c445023114c97d5d0623c409f9,
@@ -1214,7 +1214,7 @@ MonoBehaviour:
   m_PlayAudioClipOnSelectCanceled: 0
   m_AudioClipForOnSelectCanceled: {fileID: 0}
   m_PlayAudioClipOnHoverEntered: 1
-  m_AudioClipForOnHoverEntered: {fileID: 8300000, guid: f8340f55e5c418444b78e8db2523aad9,
+  m_AudioClipForOnHoverEntered: {fileID: 8300000, guid: 5dcfe313a8ac08147bc04028180cf9da,
     type: 3}
   m_PlayAudioClipOnHoverExited: 1
   m_AudioClipForOnHoverExited: {fileID: 8300000, guid: 9551e6c445023114c97d5d0623c409f9,
