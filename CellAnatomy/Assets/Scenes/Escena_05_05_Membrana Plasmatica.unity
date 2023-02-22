@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0012412097, g: 0.0011254108, b: 0.0010736482, a: 1}
+  m_IndirectSpecularColor: {r: 0.0012862297, g: 0.0011689819, b: 0.0011017234, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2508,7 +2508,7 @@ PrefabInstance:
     - target: {fileID: 8452990226720717429, guid: a0686c835926ed2408c3edb5fe6e8f9e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Escena_06_Celula animal
+      value: Escena_05_Celula vegetal
       objectReference: {fileID: 0}
     - target: {fileID: 8452990226775522478, guid: a0686c835926ed2408c3edb5fe6e8f9e,
         type: 3}
