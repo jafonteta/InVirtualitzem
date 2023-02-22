@@ -2110,6 +2110,9 @@ MonoBehaviour:
   - {fileID: 1533669686}
   organulosAsignados: []
   numerosSorteoOrganulos: 
+  miCam: {fileID: 0}
+  botonResolver: {fileID: 0}
+  animatorCanvasEnd: {fileID: 0}
 --- !u!1 &754020322
 GameObject:
   m_ObjectHideFlags: 0

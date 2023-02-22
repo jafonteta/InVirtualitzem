@@ -38,9 +38,17 @@ public class MiniGameControl : MonoBehaviour
 
     public GameObject botonResolver;
 
+    [Space(10)]
+    [Header("Celebración final")]
+    public Animator animatorCanvasEnd;
+    public GameObject confetti;
+    public AudioSource miAudioEnd;
+    public AudioClip[] clipsEnd;
+
 
     void Start()
     {
+
         numerosSorteoOrganulos = new List<int>(sockets.Length);
         categoriaConseguida = new bool[] {false, false, false };
         AsignarOrganulosToSockects();
@@ -156,6 +164,27 @@ public class MiniGameControl : MonoBehaviour
         sockets[idTemp].GetComponent<XRSocketInteractor>().socketActive = true;
     }
 
+    public void ResolverMinigame()
+    {
+        for (int a = 0; a < organulosAsignados.Count; a++)
+        {
+            organulosAsignados[a].GetComponent<XRGrabInteractable>().enabled = false;
+        }
+        if (categoriaConseguida[0] == true && categoriaConseguida[1] == true && categoriaConseguida[2] == true)
+        {
+            animatorCanvasEnd.SetBool("Win", true);
+            confetti.SetActive(true);
+            miAudioEnd.clip = clipsEnd[0];
+            miAudioEnd.Play();
+        }
+        else
+        {
+            animatorCanvasEnd.SetBool("Lose", true);
+            //confetti.SetActive(true);
+            miAudioEnd.clip = clipsEnd[1];
+            miAudioEnd.Play();
+        }
+    }
     
     /*
     private string ConvertNumeroToKey(int numTemp)
