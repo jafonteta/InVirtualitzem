@@ -3,7 +3,87 @@ guid: 50b5dc78430f66449927b8ffa4d96d11
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: APARATO DE GOLGI
+    second: {fileID: 2100000, guid: b65fe2b443ea66c4d8548136b9d2a1bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LISOSOMA
+    second: {fileID: 2100000, guid: 7ac7425bbc35bc049a06ef7ee647e795, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MEMBRANA CELULAR
+    second: {fileID: 2100000, guid: ee883425553b639408d1b1f4eb629469, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MEMBRANA INTERNA
+    second: {fileID: 2100000, guid: bf3c447164d254346a40ad179a5cc35f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "MITOC\xD3NDRIA"
+    second: {fileID: 2100000, guid: da65557da3efed9448e0317176560919, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NUCLEOLO
+    second: {fileID: 2100000, guid: 4b971735a1a99fc4aab650e0fbd645bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "N\xDACELO"
+    second: {fileID: 2100000, guid: 8c335b8c6a2195a47a79ce529c9438a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "RET\xCDCULO ENDOPLASM\xC1TICO"
+    second: {fileID: 2100000, guid: 237468beee9d9404892e72507844c961, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: APARATO DE GOLGI
+    second: {fileID: 2800000, guid: 3d18e789e078e284ab83ea515a7bd80e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LISOSOMA
+    second: {fileID: 2800000, guid: 1668c0a9993b3414eac0de04a0af02ec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MEMBRANA CELULAR
+    second: {fileID: 2800000, guid: d0ac875f8ae1a564b830595af91c8225, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MEMBRANA INTERNA
+    second: {fileID: 2800000, guid: b5bb75f7320ba6c48925479d515c945c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "MITOC\xD3NDRIA"
+    second: {fileID: 2800000, guid: 776f4bd7fdc130c428ce8ac2b4d36629, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: NUCLEOLO
+    second: {fileID: 2800000, guid: a94ce8c9f85e5cf4192044fddc638c94, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "N\xDACELO"
+    second: {fileID: 2800000, guid: 402f0d7df09ec434c9eac2b5e456cd8d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "RET\xCDCULO ENDOPLASM\xC1TICO"
+    second: {fileID: 2800000, guid: c326629eff03f72448da8eef117bc636, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

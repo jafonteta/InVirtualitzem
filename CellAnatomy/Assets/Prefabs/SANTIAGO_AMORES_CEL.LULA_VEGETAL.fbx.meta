@@ -3,7 +3,122 @@ guid: 3bff257bf7276d84a81c34a575a25f91
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: APARATO DE GOLGI
+    second: {fileID: 2100000, guid: 58d65c5ee4c999b4f9e51e001ecf9240, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLOROPLASTO.001
+    second: {fileID: 2100000, guid: bb79b4e0b5ebc6346a0cf9ce31a59bba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLOROPLASTO.002
+    second: {fileID: 2100000, guid: 25a3d96ee323ceb47a5fa695ed265afb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LISOSOMA.001
+    second: {fileID: 2100000, guid: 966ec656a0826594eaf61494a7e7fc2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MEMBRANA CELULAR(2)
+    second: {fileID: 2100000, guid: dd0bd8bb1416e3141b1186f104ad72b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MEMBRANA INTERNA
+    second: {fileID: 2100000, guid: a605a75b55a7b6e4c9ac29d2dfbf691c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "MITOC\xD3NDRIA"
+    second: {fileID: 2100000, guid: 110816c940b94f549a779a091e9dfd9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NUCLEOLO
+    second: {fileID: 2100000, guid: 986159b4aebc62445a946887e5256c0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "N\xDACELO"
+    second: {fileID: 2100000, guid: 21225e4f1e74f07429ae2d6df04d7f63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PARED CELULAR
+    second: {fileID: 2100000, guid: 26abf2b59eb37204dab98c80498281b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "RET\xCDCULO ENDOPLASM\xC1TICO.001"
+    second: {fileID: 2100000, guid: 312fcf5ffbeb17647976c53fadbf00ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VACUOLA
+    second: {fileID: 2100000, guid: 94a715f5e4d1a3d428c5b5ab7652540d, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: APARATO DE GOLGI
+    second: {fileID: 2800000, guid: bb980b1f90700174ab846aa47375926a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CLOROPLASTO.001
+    second: {fileID: 2800000, guid: 35b39bd941d1f9f48ad9f11433d6971d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LISOSOMA.001
+    second: {fileID: 2800000, guid: cc453eacb145b514b8e1eb3318316ff5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MEMBRANA CELULAR
+    second: {fileID: 2800000, guid: bfa6c77b6cb8fc940a7dbe8b628e5312, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MEMBRANA INTERNA
+    second: {fileID: 2800000, guid: 9992bda1799c4134e994eddae1960b89, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "MITOC\xD3NDRIA"
+    second: {fileID: 2800000, guid: 546b265362ada2d429c2d521006bdf56, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: NUCLEOLO
+    second: {fileID: 2800000, guid: dc20888b9d080904d9180780b169be7e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "N\xDACELO"
+    second: {fileID: 2800000, guid: 18e0f1e93681b3a4fbde6a7f6eefe23f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PARED CELULAR
+    second: {fileID: 2800000, guid: 2f112bd996669d74b86b54ea736d978b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "RET\xCDCULO ENDOPLASM\xC1TICO.001"
+    second: {fileID: 2800000, guid: c265f4db2642d804588a436d1c052e99, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: VACUOLA
+    second: {fileID: 2800000, guid: da84bf35fde8dad4c92564c16758b091, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
