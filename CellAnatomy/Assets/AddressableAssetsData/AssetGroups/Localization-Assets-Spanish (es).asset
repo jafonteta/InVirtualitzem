@@ -16,7 +16,62 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: ba0782a0f9297bd448cc1fbc591788c3
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: fcba3d8d6537e314d808a7c0e55206e2
+    m_Address: OrgAudEs001_NucleoAnim
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  - m_GUID: 0c69559ae810f1b44abf7c534aad3342
+    m_Address: OrgAudEs002_Mitocondria_Anim
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  - m_GUID: 3c09a6e4f78d0e74f8c939c9c8d43444
+    m_Address: OrgAudEs003_MembPlasmProcAnim
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  - m_GUID: 33f8bd2f7d335bd498782dc7ec2493da
+    m_Address: OrgAudEs004_NucleoVeget
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  - m_GUID: 9c8ce8005fd7ce94aa18cea1df23db7a
+    m_Address: OrgAudEs005_Cloroplasto
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  - m_GUID: 413d81eed6685bc4b9c03c35a9a609ff
+    m_Address: OrgAudEs006_MitocondriaVeget
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  - m_GUID: 654606ab4317bdd4eb3d5b46a77af3d6
+    m_Address: OrgAudEs008_ParedCelular
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  - m_GUID: 65f5dd9bd8ed5b043be0e855d0fe5231
+    m_Address: OrgAudEs010_Citoplasma
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  - m_GUID: 1327d977ada3e5b45ad75ef3bdd71bbf
+    m_Address: OrgAudEs011_MembPlasmProc
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  - m_GUID: 68216b009106e0041bd2c664362c03fd
+    m_Address: OrgAudEs012_ParedCelularProc
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  - m_GUID: ada97ff4eb80f36429321b84228ec350
+    m_Address: OrgAudEs013_Flagelo
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 850885d5058469c4c8438e2535d368c4, type: 2}
   m_SchemaSet:

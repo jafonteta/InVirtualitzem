@@ -16,7 +16,67 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: f85f6574928c95f4b9798ee48daf9a33
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 28652984d002e2947816b816c5341229
+    m_Address: OrgAudEn001_Nucleo
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: fccdb94a5c00abb48b71278954128682
+    m_Address: OrgAudEn002_Mitocondria
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: f5217dd9e11ddcd4c8add810823d7a61
+    m_Address: OrgAudEn003_CellMembrane
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 91253e153a46419468932c50b3dd0a20
+    m_Address: OrgAudEn004_NucleusPlant
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 1d45375715a712d4a9432eef2e1e6851
+    m_Address: OrgAudEn005_Cloroplastos
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 868b6037669e76840a4818cea33e3f0e
+    m_Address: OrgAudEn006_MitocondriosPlant
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 18675e26cfa5e85468d449d08aa30999
+    m_Address: OrgAudEn008_CellWall
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 89fb4d0f488a35e4b99b6995c46d6eca
+    m_Address: OrgAudEn009_GeneticMaterialProk
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: c89f7b57887c50e43942cf693475412d
+    m_Address: OrgAudEn010_CytoplasmProk
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: bc17cd63467d4314b97a04d35901fa1b
+    m_Address: OrgAudEn011_PlasmaMembraneProk
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 2bb2bbfd83aa32f4da68410362584b4d
+    m_Address: OrgAudEn012_CellWallProk
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: a2626354d5837d44881f5183769fdf64
+    m_Address: OrgAudEn013_Flagelo
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 850885d5058469c4c8438e2535d368c4, type: 2}
   m_SchemaSet:

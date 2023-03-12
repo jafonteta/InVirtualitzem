@@ -25,6 +25,18 @@ MonoBehaviour:
     m_Address: Assets/Scenes/Localization/AudioLocalizado Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: 7eecce3ef1069aa489fa8bf9b0308616
+    m_Address: OrgAudEs009_MaterialGenetico
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Locale-ca
+  - m_GUID: 35aa2bfa00c4ed640a20605ead485996
+    m_Address: OrgAudEs007_MembPlasmEucVeget
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Locale-en
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 850885d5058469c4c8438e2535d368c4, type: 2}
   m_SchemaSet:

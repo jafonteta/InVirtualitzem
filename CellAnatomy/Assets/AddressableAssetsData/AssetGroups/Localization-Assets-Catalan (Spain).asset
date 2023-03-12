@@ -16,7 +16,62 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 88fdd335242bbd44ba5fec2cc316c9e2
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 762d6fd13775f124a9b75ad3f222b43e
+    m_Address: OrgAudCa001_Nucli
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ca
+  - m_GUID: e10d50ec19812bc469cae82272d819fd
+    m_Address: OrgAudCa002_Mitocondri
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ca
+  - m_GUID: 91a75b083ada5c04b9fae5468e560061
+    m_Address: OrgAudCa003_MembranaPlasmatica
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ca
+  - m_GUID: 2dcacf67ee699a84ba68704db1b35018
+    m_Address: OrgAudCa004_Nucli
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ca
+  - m_GUID: 8a58dccbf468f454cb79b65e1e6527a0
+    m_Address: OrgAudCa005_Cloroplast
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ca
+  - m_GUID: 26a121258469d4e4c94c148c9a8730e2
+    m_Address: OrgAudCa006_Mitocondri
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ca
+  - m_GUID: d4814e6234b69864ea5c741e5e98a8d2
+    m_Address: OrgAudCa007_MembranaPlasmatica
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ca
+  - m_GUID: 0f6eaea8b53146f499ce10249badcf45
+    m_Address: OrgAudCa008_ParetCellular
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ca
+  - m_GUID: b9c258a9957bfa049a5f6299a3f8ad06
+    m_Address: OrgAudCa011_MembranaPlasmatica
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ca
+  - m_GUID: 996fbad7c32a8ab4991cf2d90ca3ac21
+    m_Address: OrgAudCa012_ParetCellular
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ca
+  - m_GUID: f9db57245fc7d2c4c945e1ab3741f893
+    m_Address: OrgAudCa013_Flagel
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ca
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 850885d5058469c4c8438e2535d368c4, type: 2}
   m_SchemaSet:
